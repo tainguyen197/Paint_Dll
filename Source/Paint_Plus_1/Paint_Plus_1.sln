@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Paint_Plus_1", "Paint_Plus_1.vcxproj", "{0A09B526-6B3C-4CA7-8D81-1B26F911CDC2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C9F289F-8B13-44E6-918B-A1AADAC74BCE} = {2C9F289F-8B13-44E6-918B-A1AADAC74BCE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyDll", "..\MyDll\MyDll.vcxproj", "{2C9F289F-8B13-44E6-918B-A1AADAC74BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A09B526-6B3C-4CA7-8D81-1B26F911CDC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A09B526-6B3C-4CA7-8D81-1B26F911CDC2}.Debug|Win32.Build.0 = Debug|Win32
+		{0A09B526-6B3C-4CA7-8D81-1B26F911CDC2}.Release|Win32.ActiveCfg = Release|Win32
+		{0A09B526-6B3C-4CA7-8D81-1B26F911CDC2}.Release|Win32.Build.0 = Release|Win32
+		{2C9F289F-8B13-44E6-918B-A1AADAC74BCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C9F289F-8B13-44E6-918B-A1AADAC74BCE}.Debug|Win32.Build.0 = Debug|Win32
+		{2C9F289F-8B13-44E6-918B-A1AADAC74BCE}.Release|Win32.ActiveCfg = Release|Win32
+		{2C9F289F-8B13-44E6-918B-A1AADAC74BCE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

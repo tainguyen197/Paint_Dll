@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command
+      Name="cmdOpen"
+      Symbol ="ID_BTN_OPEN"
+      LabelTitle="Open File">
+      <Command.LargeImages>
+        <Image Id ="210"> Images/open.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command
+          Name="cmdSave"
+          Symbol ="ID_BTN_SAVE"
+          LabelTitle="Save">
+      <Command.LargeImages>
+        <Image Id ="211"> Images/save.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command
+      Name="cmdLine"
+      Symbol ="ID_BTN_LINE"
+      LabelTitle="Draw Line">
+      <Command.LargeImages>
+        <Image Id ="212"> Images/line.ico</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command
+        Name="cmdRectangle"
+        Symbol ="ID_BTN_RECTANGLE"
+        LabelTitle="Draw rectangle">
+      <Command.LargeImages>
+        <Image Id ="210"> Images/rectangle.ico</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command
+        Name="cmdEllipse"
+        Symbol ="ID_BTN_ELLIPSE"
+        LabelTitle="Draw ellipse">
+      <Command.LargeImages>
+        <Image Id ="210"> Images/ellipse.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command 
+      Name="cmdGroup"
+      LabelTitle="">    
+    </Command>
+  
+   <Command 
+      Name="Func"
+      LabelTitle="">    
+    </Command>
+  <Command 
+      Name="Drawing"
+      LabelTitle="Drawing">    
+    </Command>
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.Tabs>
+        <Tab CommandName ="Drawing">
+          <Group CommandName ="cmdGroup" SizeDefinition ="TwoButtons">
+            <Button CommandName="cmdOpen" />
+            <Button CommandName="cmdSave" />
+          </Group>
+          <Group CommandName ="Func" SizeDefinition ="ThreeButtons">
+            <Button CommandName="cmdLine" />
+            <Button CommandName="cmdRectangle" />
+            <Button CommandName="cmdEllipse" />
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
+

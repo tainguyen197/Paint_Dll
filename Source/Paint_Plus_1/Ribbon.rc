@@ -1,0 +1,58 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_LabelTitle_RESID L"Open File" /* LabelTitle ID_BTN_OPEN_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_OPEN_LargeImages_RESID    IMAGE    "Images\\open.png" /* LargeImages ID_BTN_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_BTN_SAVE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SAVE_LargeImages_RESID    IMAGE    "Images\\save.png" /* LargeImages ID_BTN_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_LINE_LabelTitle_RESID L"Draw Line" /* LabelTitle ID_BTN_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_LINE_LargeImages_RESID    IMAGE    "Images\\line.ico" /* LargeImages ID_BTN_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_RECTANGLE_LabelTitle_RESID L"Draw rectangle" /* LabelTitle ID_BTN_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_RECTANGLE_LargeImages_RESID    IMAGE    "Images\\rectangle.ico" /* LargeImages ID_BTN_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_ELLIPSE_LabelTitle_RESID L"Draw ellipse" /* LabelTitle ID_BTN_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_ELLIPSE_LargeImages_RESID    IMAGE    "Images\\ellipse.png" /* LargeImages ID_BTN_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdGroup_LabelTitle_RESID L"" /* LabelTitle cmdGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Func_LabelTitle_RESID L"" /* LabelTitle Func_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Drawing_LabelTitle_RESID L"Drawing" /* LabelTitle Drawing_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
